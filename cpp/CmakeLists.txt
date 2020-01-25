@@ -1,0 +1,11 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 3.0)
+
+PROJECT(timing-attack)
+
+SET(default_build_type "Release")
+SET(CMAKE_CXX_STANDARD 14)
+SET(CMAKE_CXX_STANDARD_REQUIRED on)
+
+ADD_EXECUTABLE(timing-attack
+    "${PROJECT_SOURCE_DIR}/main.cpp" 
+)
